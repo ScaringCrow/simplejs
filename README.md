@@ -1,1 +1,1 @@
-# simplejs
+# ScaryJS
