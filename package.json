@@ -1,5 +1,5 @@
 {
-  "name":"ScaryJS",
+  "name":"scaryjs",
   "description":"This is a poorly named package it's supposed to make js easier and not scary.\nIt's going to be quite useful but still It's in beta",
   "version":0.0.1,
   "author":"Tharun Pandiyan tharunpandiyanv@gmail.com https://github.com/ScaringCrow"
@@ -16,6 +16,6 @@
   "license":"Apache-2.0",
   "bugs":{
     "url":"https://github.com/ScaringCrow/ScaryJS/issues?q=is%3Aissue+is%3Aopen"
-  }.
+  },
   "homepage":"https://github.com/ScaringCrow/ScaryJS"
 }
