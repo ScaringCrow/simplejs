@@ -4,6 +4,6 @@
         "println":"(txt) => document.write('\n' + txt + \n)"
     },
     "elem":{
-        "new";"(elem) => document.createElement(elem);"
+        "new":"(elem) => document.createElement(elem);"
     }
 }
