@@ -1,16 +1,16 @@
 {
     "out":{
-        "print":"(txt) => document.write(txt);",
-        "println":"(txt) => document.write('\n' + txt + \n)"
+        "print":"function (txt) => {document.write(txt);}",
+        "println":"function (txt) {document.write('\n' + txt + \n)}"
     },
     "elem":{
-        "new":"(elem) => document.createElement(elem);",
-        "inner":"(value) => this.innerHTML = value;",
-        "outer":"(value) => this.outerHTML = value;"
+        "new":"function (elem) {document.createElement(elem);}",
+        "inner":"function (value) {this.innerHTML = value;}",
+        "outer":"function (value) {this.outerHTML = value;}"
     },
     "looks":{
         "border":{
-            "thickness":"(px) => this.style.border = `${px}px`;"
+            "thickness":"function (px) {this.style.border = `${px}px`;}"
         }
     }
 }
