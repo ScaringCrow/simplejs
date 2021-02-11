@@ -1,0 +1,6 @@
+{
+    "out":{
+        "print":"(txt) => document.write(txt);",
+        "println":"(txt) => document.write('\n' + txt + \n)"
+    }
+}
