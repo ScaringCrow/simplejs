@@ -4,6 +4,13 @@
         "println":"(txt) => document.write('\n' + txt + \n)"
     },
     "elem":{
-        "new":"(elem) => document.createElement(elem);"
+        "new":"(elem) => document.createElement(elem);",
+        "inner":"(value) => this.innerHTML = value;",
+        "outer":"(value) => this.outerHTML = value;"
+    },
+    "looks":{
+        "border":{
+            "thickness":"(px) => this.style.border = `${px}px`;"
+        }
     }
 }
