@@ -10,7 +10,7 @@
     },
     "looks":{
         "border":{
-            "px":"function (px) {this.style.border = `${px}px`;}"
+            "px":"function (px) {if (this.style.border == undefined) {\nthis.style.border = `${px}px`;\n}else{\nthis.style.border += `${px}px`\n}"
         }
     }
 }
