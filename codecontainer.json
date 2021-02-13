@@ -1,6 +1,16 @@
 {
     "out":{
-        "print":"(txt) => document.write(txt);",
-        "println":"(txt) => document.write('\n' + txt + \n)"
+        "print":"function (txt) {document.getElementsByTagName(body).innerHTML = txt;}",
+        "println":"function (txt) {document.getElementsByTagName(body).innerHTML = txt;"
+    },
+    "elem":{
+        "new":"function (elem) {document.createElement(elem);}",
+        "inner":"function (value) {this.innerHTML = value;}",
+        "outer":"function (value) {this.outerHTML = value;}"
+    },
+    "looks":{
+        "border":{
+            "px":"function (px) {if (this.style.border == undefined) {this.style.border = `${px}px`;}else{this.style.border += `${px}px`}"
+        }
     }
 }

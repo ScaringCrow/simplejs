@@ -1,21 +1,25 @@
 {
-  "name":"scaryjs",
-  "description":"This is a poorly named package it's supposed to make js easier and not scary.\nIt's going to be quite useful but still It's in beta",
-  "version":"0.0.1",
-  "author":"Tharun Pandiyan tharunpandiyanv@gmail.com https://github.com/ScaringCrow"
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/ScaringCrow/ScaryJS"
+  "name": "scaryjs",
+  "version": "0.0.1",
+  "description": "making js unscary so you can say what a bad name for a package",
+  "main": "Scary.js",
+  "scripts": {
+    "test":"echo hello you have downloaded scaryjs"
   },
-  "keywords":[
-    "Simple",
-    "JS",
-    "JavaScript",
-    "un-scary"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScaringCrow/ScaryJS.git"
+  },
+  "keywords": [
+    "Un-scary",
+    "js",
+    "jsvascript",
+    "scaringcrow"
   ],
-  "license":"Apache-2.0",
-  "bugs":{
-    "url":"https://github.com/ScaringCrow/ScaryJS/issues?q=is%3Aissue+is%3Aopen"
+  "author": "Tharun Pandiyan tharunpandiyanv@gmail.com https:\\github.com\doingsomethingrandom",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/ScaringCrow/ScaryJS/issues"
   },
-  "homepage":"https://github.com/ScaringCrow/ScaryJS"
+  "homepage": "https://github.com/ScaringCrow/ScaryJS#readme"
 }
