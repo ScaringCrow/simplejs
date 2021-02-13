@@ -1,6 +1,16 @@
 {
     "out":{
-        "print":"(txt) => document.write(txt);",
-        "println":"(txt) => document.write('\n' + txt + \n)"
+        "print":"function (txt) {document.write(txt);}",
+        "println":"function (txt) {document.write('\n' + txt + \n)}"
+    },
+    "elem":{
+        "new":"function (elem) {document.createElement(elem);}",
+        "inner":"function (value) {this.innerHTML = value;}",
+        "outer":"function (value) {this.outerHTML = value;}"
+    },
+    "looks":{
+        "border":{
+            "thickness":"function (px) {this.style.border = `${px}px`;}"
+        }
     }
 }
