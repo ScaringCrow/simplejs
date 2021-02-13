@@ -1,7 +1,7 @@
 {
     "out":{
-        "print":"function (txt) {document.write(txt);}",
-        "println":"function (txt) {document.write('\n' + txt + \n)}"
+        "print":"function (txt) {document.getElementsByTagName(body).innerHTML = txt;}",
+        "println":"function (txt) {document.getElementsByTagName(body).innerHTML = txt;"
     },
     "elem":{
         "new":"function (elem) {document.createElement(elem);}",
@@ -10,7 +10,7 @@
     },
     "looks":{
         "border":{
-            "thickness":"function (px) {this.style.border = `${px}px`;}"
+            "px":"function (px) {if (this.style.border == undefined) {this.style.border = `${px}px`}else{this.style.border += `${px}px}`"
         }
     }
 }
