@@ -1,5 +1,5 @@
 {
-  "name": "scaryjs",
+  "name": "scaryjs-beta",
   "version": "0.0.1",
   "description": "making js unscary so you can say what a bad name for a package",
   "main": "Scary.js",
@@ -16,7 +16,7 @@
     "jsvascript",
     "scaringcrow"
   ],
-  "author": "Tharun Pandiyan tharunpandiyanv@gmail.com https:\\github.com\doingsomethingrandom",
+  "author": "Tharun Pandiyan tharunpandiyanv@gmail.com https://github.com/doingsomethingrandom",
   "license": "SEE LICENSE IN LICENSE.txt",
   "bugs": {
     "url": "https://github.com/ScaringCrow/ScaryJS/issues"
