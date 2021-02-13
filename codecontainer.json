@@ -1,6 +1,6 @@
 {
     "out":{
-        "print":"function (txt) => {document.write(txt);}",
+        "print":"function (txt) {document.write(txt);}",
         "println":"function (txt) {document.write('\n' + txt + \n)}"
     },
     "elem":{
